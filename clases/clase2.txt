@@ -1,0 +1,37 @@
+Calse 2
+----------
+
+Script y relate file.js con html.
+Tag <script src="file.js"></script>
+Inline <script></script>
+
+Definición de variables "vars";
+Console.log();
+
+Arrays [1, 2, 3]; 
+Objetos {id:1234};
+
+var obj = {name: "gabriel"};
+console.log(obj.name);
+VM516:1 gabriel
+console.log(obj['name']);
+VM517:1 gabriel
+obj.lastname = "j";
+"j"
+obj
+Object {name: "gabriel", lastname: "j"}
+
+var foo = 3; //Variable global
+(function(){
+    console.log(foo);
+})();// el doble parentesis es para ejecutar la funci'on 
+
+(function(){
+    var foo = 5;
+    console.log(foo); // va a ser = 5 que fue la variable definida en funci'on
+});
+
+console.log(foo); // va a ser = 3 que fue la variable definida global, si no estuviese definido "foo" de manera global dar'ia Undefined Var
+
+Palabras reservadas son aquellas que se definen por si mismas y son de origen nativos de js.
+

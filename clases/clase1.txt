@@ -1,0 +1,30 @@
+Scrums
+----------
+
+Metodología de trabajo.
+Agil.
+Funciona en iteraciones, donde cada una semana se entrega una pieza del producto final.
+De esta manera se puede resolver problemas futuros en cortos plazos.
+
+Sprints (iteraciones)
+- Items dentro de los sprints llamados Backlogs.
+- Los backlogs se ordenan por prioridad de valor.
+- Sprint planning: reunión (max 4hs) para definir los backlogs.
+- Retrospectiva: reunión (1 por sprint - 1 a 2hs) con equipo para autoevaluación. 
+    2 etapas: 
+        a- se escriben comtentarios en posticks y se agrupan por tipo.
+        b- se charla sobre los posticks.
+- Dayly meeting: 15min diarios.
+    - que he hecho?
+    - que voy a hacer?
+    - que impedimento tengo o voy a tener?
+
+Roles
+- Dev team: equipo de desrrollo
+- Product Owner: dueño del "producto", quien interactua con el comprador final.
+- Scrum Master: quien hace respetar el flujo y las tareas del scrum.
+
+
+
+
+
