@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculadora</title>
-    <script src="calc.js"></script>
 </head>
 <body>
-    <form action="none">
-        <button>+</button>
-        <button>-</button>
-        <button>/</button>
-        <button>*</button>
-        <input type="text">
-        <input type="text">
-    </form>
+    
+    <input type="text" id="numero1">
+    <input type="text" id="numero2">
+        
+    <button onclick=
+    "suma();" id="suma">+</button>
+    <button onclick=
+    "resta();">-</button>
+    <button onclick=
+    "division();">/</button>
+    <button onclick=
+    "producto();">*</button>
+
+    <div id="resultado">
+    </div>
+    
+    <script type="text/javascript" src="calc.js"></script>
+    
 </body>
 </html>
