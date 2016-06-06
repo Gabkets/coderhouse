@@ -3,28 +3,13 @@ function elMayor(a, b){
     
     //Con if
     if(a > b){
-        console.log("a es mayor");
+        console.log(a);
     }else if( a < b){
-        console.log("b es mayor");
+        console.log(b);
     }else{
-        console.log("son igulaes");
+        console.log(a);
     }
     
-    
-    //Con switch 
-	switch(a b){
-
-        case a<b:
-            console.log(b);
-        break;
-        
-        case b<a:
-            console.log(a);
-        break;
-        
-        
-    }
-	
 }
 
 elMayor(1, 2);
