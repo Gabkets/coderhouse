@@ -7,11 +7,39 @@ function getValues(){
 
 }
 
-//Definimos el contenedor donde se muestra el resultadi
+//Definimos el contenedor donde se muestra el resultado
 function showResult(value){
     
     var result = document.getElementById('resultado').innerHTML = value;
 
+}
+
+//Definimos la suma
+function sum(a, b){
+    
+    return parseInt(a) + parseInt(b);
+    
+}
+
+//Definimos la resta
+function res(a, b){
+    
+    return parseInt(a) - parseInt(b);
+    
+}
+
+//Definimos la division
+function div(a, b){
+    
+    return parseInt(a) / parseInt(b);
+    
+}
+
+//Definimos el producto
+function prod(a, b){
+    
+    return parseInt(a) * parseInt(b);
+    
 }
 
 //Realizamos la suma
@@ -23,13 +51,6 @@ function suma(){
 
 }
 
-//Definimos la suma
-function sum(a, b){
-    
-    return parseInt(a) + parseInt(b);
-    
-}
-
 //Realizamos la resta
 function resta(){
     
@@ -37,13 +58,6 @@ function resta(){
     
     showResult(res(values[0], values[1]));
 
-}
-
-//Definimos la resta
-function res(a, b){
-    
-    return parseInt(a) - parseInt(b);
-    
 }
 
 //Realizamos la division
@@ -55,13 +69,6 @@ function division(){
 
 }
 
-//Definimos la division
-function div(a, b){
-    
-    return parseInt(a) / parseInt(b);
-    
-}
-
 //Realizamos el producto
 function producto(){
     
@@ -69,13 +76,6 @@ function producto(){
     
     showResult(prod(values[0], values[1]));
 
-}
-
-//Definimos el producto
-function prod(a, b){
-    
-    return parseInt(a) * parseInt(b);
-    
 }
 
 
