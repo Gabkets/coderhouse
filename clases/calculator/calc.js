@@ -1,8 +1,4 @@
-//  alert('hola');
-
-
-
-
+//Tomamos los valores de los inputs
 function getValues(){
 
     var num1 = document.getElementById('numero1').value;
@@ -11,12 +7,14 @@ function getValues(){
 
 }
 
+//Definimos el contenedor donde se muestra el resultadi
 function showResult(value){
     
     var result = document.getElementById('resultado').innerHTML = value;
 
 }
 
+//Realizamos la suma
 function suma(){
     
     var values = getValues();
@@ -25,12 +23,14 @@ function suma(){
 
 }
 
+//Definimos la suma
 function sum(a, b){
     
     return parseInt(a) + parseInt(b);
     
 }
 
+//Realizamos la resta
 function resta(){
     
     var values = getValues();
@@ -39,12 +39,14 @@ function resta(){
 
 }
 
+//Definimos la resta
 function res(a, b){
-        
+    
     return parseInt(a) - parseInt(b);
     
 }
 
+//Realizamos la division
 function division(){
     
     var values = getValues();
@@ -53,12 +55,14 @@ function division(){
 
 }
 
+//Definimos la division
 function div(a, b){
     
     return parseInt(a) / parseInt(b);
     
 }
 
+//Realizamos el producto
 function producto(){
     
     var values = getValues();
@@ -67,8 +71,9 @@ function producto(){
 
 }
 
+//Definimos el producto
 function prod(a, b){
-    console.log( parseInt(a) * parseInt(b) );
+    
     return parseInt(a) * parseInt(b);
     
 }
