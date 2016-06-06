@@ -1,0 +1,104 @@
+Clase 4
+-------
+
+If, else if y else
+
+if(condition){
+    
+    ...
+    
+}else if{
+    
+    ...
+    
+}else{
+    
+    ...
+    
+}
+
+var a = 1;
+
+for(var i = 0; a < 10 ; i++){
+    
+    a++
+    
+}
+
+console.log("esta variable es el valor %s", a);//%s imprime la variable
+
+
+for con array
+
+var arry = ["A", "B", "C"];
+
+for(i = 0; i < arry.length; i++){
+
+    console.log(arry[i]);
+    
+}
+
+
+While
+
+while(truev//itera siempre y cuando se cumpla esta condicion){
+
+    a++;
+    
+    if( a > 10){
+    
+        console.log("listo");
+        break;
+    
+    }
+    
+}
+
+
+Metodo recursivo de iteracion:
+
+function test(a){
+
+    console.log(a);
+    
+    if( a == 0 ){
+    
+        return 0;
+        
+    }else{
+    
+        return test(a - 1);
+    
+    }
+
+}
+
+
+test(100);
+
+
+
+
+
+
+Switch
+
+a = "manzana";
+
+switch(a){
+
+    case "manzana":
+        
+    break;
+    
+    case "naranja":
+    
+        
+    
+    break;
+    
+    else
+    
+    console.log("frutos");
+    
+}
