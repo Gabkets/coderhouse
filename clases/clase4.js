@@ -10,6 +10,7 @@ function elMayor(a, b){
         console.log(a);
     }
     
+    
 }
 
 elMayor(1, 2);
