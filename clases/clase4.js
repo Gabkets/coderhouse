@@ -15,7 +15,11 @@ function elMayor(a, b){
     	switch( a>b || a==b){
 
         case true:
-            console.log("a");
+            if(a>b){
+                console.log("a");
+            }else{
+                console.log("son iguales");
+            }    
         break;
         
         case false:
@@ -26,4 +30,4 @@ function elMayor(a, b){
 
 }
 
-elMayor(3, 3);
+elMayor(3, 1);
