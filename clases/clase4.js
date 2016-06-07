@@ -1,33 +1,32 @@
+//Con correccion de console.log a return
+
 function elMayor(a, b){   
-    
     
     //Con if
     if(a > b){
-        console.log(a);
+        return a;
     }else if( a < b){
-        console.log(b);
+        return b;
     }else{
-        console.log(a);
+        return a;
     }
-    
     
     //Con switch 
     	switch( a>b || a==b){
 
         case true:
             if(a>b){
-                console.log("a");
+                return ("a");
             }else{
-                console.log("son iguales");
+                return ("son iguales");
             }    
         break;
         
         case false:
-            console.log("b");
-        break;
+            return ("b");
             
         }
 
 }
 
-elMayor(3, 1);
+elMayor(1, 3);
