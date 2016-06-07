@@ -12,21 +12,16 @@ function elMayor(a, b){
     }
     
     //Con switch 
-    	switch( a>b || a==b){
+    	switch( a>b ){
 
         case true:
-            if(a>b){
-                return ("a");
-            }else{
-                return ("son iguales");
-            }    
+            return a; 
         break;
         
         case false:
-            return ("b");
+            return b;
             
         }
-
 }
 
 elMayor(1, 3);
