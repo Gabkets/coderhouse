@@ -11,6 +11,19 @@ function elMayor(a, b){
     }
     
     
+    //Con switch 
+    	switch( a>b || a==b){
+
+        case true:
+            console.log("a");
+        break;
+        
+        case false:
+            console.log("b");
+        break;
+            
+        }
+
 }
 
-elMayor(1, 2);
+elMayor(3, 3);
