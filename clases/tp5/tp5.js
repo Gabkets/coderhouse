@@ -33,7 +33,6 @@ function bubbleSort(myArr, sorteo){
      
     }
   }
- console.log(sorteo);
   return myArr;
 }
 
