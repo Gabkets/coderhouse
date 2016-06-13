@@ -8,10 +8,10 @@ function esPrimo(num){
         //Generamos un bucle que recorre todos los números del 2 al num
         for(i=2; i<num; i++){
             if(num%i === 0){ //Si la división de alguno de los números entre 2 y num da resto cero significa que no es primo
-                var primo = "no primo";
+                var primo = false;
                 break;
             }else{//Si ningún número da raesto cero entre 2 y num significa que num es primo
-                var primo = "primo";
+                var primo = true;
             }
         }
         return primo; //Retornamos el valor de la variable primo
